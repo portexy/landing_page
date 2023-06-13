@@ -8,7 +8,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     background-color: #1F2937;
-    padding: 0 8rem 0 12rem;
+    padding: 0 8rem 0 7rem;
 }
 
 
@@ -22,6 +22,7 @@ section header h3{
     font-size: 24px;
     color: #F9FAF8;
     margin-top: 0;
+    margin-bottom: 5rem;
 }
 
  h2{
@@ -36,13 +37,24 @@ section p{
     color: #e5e7eb;
     margin: 0;
 }
+section button{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 .right-side{
-    border: 1px solid green;
     flex-basis: 55%;
     justify-content: center;
 }
+
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -57,13 +69,19 @@ nav a{
     display: block;
     text-decoration: none;
     margin-right: 1rem;
+    color: #F9FAF8;
+    font-size: 18px;
+    
 }
 
 .top-image{
-    height: 5rem;
+    height: 9rem;
     width: auto;
     border: 1px dotted blueviolet;
     text-align: center;
     margin-top: 4rem;
     margin-left: 2rem;
+    padding-top: 5rem;
+    background-color: #808b96;
+    color: #f2f4f4;
 }
