@@ -110,7 +110,7 @@ justify-content: center;
 
  .second-container > div{
     border: 3px solid #3882f6;
-    width: 150px;
+    width: 160px;
     margin: 20px;
     border-radius: 10px;
     margin-bottom: 0;
@@ -124,33 +124,98 @@ justify-content: center;
     }
     
 .text-container > div{
-    width: 150px;
+    width: 160px;
     margin:20px;
     padding-top: 0;
+    margin-top: 10px;
     padding-left: 10px;
     font-size: 18px;
     color: #1F2937;
+    text-align: center;
 }
-.quote-b{
-    padding-bottom: 30px;
+
+.main-container .quote-text{
+    padding: 100px 230px 50px 300px;
+    background-color: #e5e7eb;
 }
-section h5{
-    padding: 100px 230px 0px 300px;
+
+.quote-text h5{
     font-size: 33px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    background-color: #e5e7eb;
     margin-bottom: 0;
 }
 
-.main-container section p {
+.main-container .quote-text p {
     font-size: 33px;
     color: #1F2937;
-    background-color: #e5e7eb;
     margin-top: 0;
     text-align: right;
-    margin-right: 230px;
     font-weight: bold;
     padding-bottom: 30px;
+}
+
+.call-action-container{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.call-action-container .action-text{
+    width: 75%;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 50px;
+    background-color: #3882f6;
+}
+
+.text-space{
+    flex-basis: 70%
+}
+
+.text-space h6{
+    font-size: 26px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.text-space p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    margin-left: 120px;
+}
+
+.action-btn{
+    flex-basis: 30%;
+    padding: 50px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.action-btn button{
+    text-align: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid #f2f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
 }
