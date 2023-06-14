@@ -95,18 +95,62 @@ nav a{
 }
 
 .random-info{
-    background-color: aqua;
     margin: 0;
     text-align: center;
     padding: 1rem;
+    color:  #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
 }
 .second-container{
 display: flex;
-padding: 50px;
-background-color: blueviolet;
+height: 200px;
+justify-content: center;
 }
 
- .second-container .illustration1, .illustration2, .illustration3, .illustration4{
-    border: 1px solid red;
-    width: 10rem;
+ .second-container > div{
+    border: 3px solid #3882f6;
+    width: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 0;
  }
+
+ .text-container{
+    display: flex;
+    height: 110px;
+    justify-content: center;
+    margin-bottom: 100px;
+    }
+    
+.text-container > div{
+    width: 150px;
+    margin:20px;
+    padding-top: 0;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #1F2937;
+}
+.quote-b{
+    padding-bottom: 30px;
+}
+section h5{
+    padding: 100px 230px 0px 300px;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    background-color: #e5e7eb;
+    margin-bottom: 0;
+}
+
+.main-container section p {
+    font-size: 33px;
+    color: #1F2937;
+    background-color: #e5e7eb;
+    margin-top: 0;
+    text-align: right;
+    margin-right: 230px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
