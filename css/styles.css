@@ -3,7 +3,6 @@
 }
 
 .first-container{
-    border: 3px solid black;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -18,11 +17,19 @@
     padding-right: 0rem;
 }
 
+.left-side, .right-side{
+    padding-bottom: 13rem;
+}
+
 section header h3{
     font-size: 24px;
     color: #F9FAF8;
-    margin-top: 0;
+    margin-top: 1.5rem;
     margin-bottom: 5rem;
+}
+
+.top-left-container{
+    margin-top: 8rem;
 }
 
  h2{
@@ -30,6 +37,7 @@ section header h3{
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 0;
+    margin-top: 50px;
 }
 
 section p{
@@ -44,7 +52,7 @@ section button{
     border-radius: 10px;
     padding: 10px;
     width: 120px;
-    margin: 10px;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -52,7 +60,7 @@ section button{
 
 .right-side{
     flex-basis: 55%;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 nav ul{
@@ -71,15 +79,15 @@ nav a{
     margin-right: 1rem;
     color: #F9FAF8;
     font-size: 18px;
+    margin-top: 1.5rem;
     
 }
 
 .top-image{
     height: 9rem;
-    width: auto;
-    border: 1px dotted blueviolet;
+    width: 32rem;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 8rem;
     margin-left: 2rem;
     padding-top: 5rem;
     background-color: #808b96;
