@@ -83,15 +83,10 @@ nav a{
     
 }
 
-.top-image{
-    height: 9rem;
-    width: 32rem;
-    text-align: center;
-    margin-top: 8rem;
-    margin-left: 2rem;
-    padding-top: 5rem;
-    background-color: #808b96;
-    color: #f2f4f4;
+.top-image img{
+    margin: 180px 0 30px 50px;
+    height: 200px;
+    width: 500px;
 }
 
 .random-info{
@@ -108,11 +103,10 @@ height: 200px;
 justify-content: center;
 }
 
- .second-container > div{
-    border: 3px solid #3882f6;
+ .second-container img{
     width: 160px;
+    height: 180px;
     margin: 20px;
-    border-radius: 10px;
     margin-bottom: 0;
  }
 
@@ -216,6 +210,16 @@ justify-content: center;
     border-radius: 10px;
     padding: 10px;
     width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer{
+    height: 100px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding-top: 50px;
     font-size: 18px;
     font-weight: bold;
 }
