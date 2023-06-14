@@ -32,7 +32,7 @@ section header h3{
     margin-top: 8rem;
 }
 
- h2{
+ .top-left-container h2{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -93,3 +93,20 @@ nav a{
     background-color: #808b96;
     color: #f2f4f4;
 }
+
+.random-info{
+    background-color: aqua;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+}
+.second-container{
+display: flex;
+padding: 50px;
+background-color: blueviolet;
+}
+
+ .second-container .illustration1, .illustration2, .illustration3, .illustration4{
+    border: 1px solid red;
+    width: 10rem;
+ }
