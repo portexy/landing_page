@@ -31,6 +31,10 @@
   color:rgb(16, 216, 16);
 }
 
+section header a{
+    text-decoration: none;
+}
+
 section header h3{
     font-size: 40px;
     color: #babcc0;
