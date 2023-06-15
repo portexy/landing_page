@@ -21,12 +21,23 @@
     padding-bottom: 13rem;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 50px;
+  color:rgb(16, 216, 16);
+}
+
 section header h3{
-    font-size: 36px;
-    color: #F9FAF8;
+    font-size: 40px;
+    color: #babcc0;
     margin-top: 1.5rem;
     margin-bottom: 5rem;
     font-family: sofia, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 .top-left-container{
